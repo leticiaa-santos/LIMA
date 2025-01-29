@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+/* HEADER */
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #F5F5F5;
+    background-color: rgb(207, 124, 252);
+    height: 50px;
+}
