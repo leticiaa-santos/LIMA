@@ -13,14 +13,14 @@ body{
 #header{
     display: flex;
     height: 70px;
-    border-bottom: 1px solid #c4c4c4;
+    border-bottom: 1px solid #af3b34;
 }
 
 .cabecalho{
     margin: 15px;
     font-family: "Playfair Display", serif;
     font-weight: 600;
-    color: #000000;
+    color: #af3b34;    
     font-size: 26px;
 }
 
@@ -31,9 +31,8 @@ body{
     display: grid;
     grid-template-columns: 800px 500px;
     grid-template-rows: auto auto;
-    align-items: start;
-    padding: 100px 40px;
     gap: 20px;
+    justify-content: center;
 }
 
 .descricao .imagem_representa{
@@ -41,25 +40,67 @@ body{
     height: 500px;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-    margin: 0px 200px;
+    margin: 50px 100px;
 }
 
 .imagem_representa img{
     width: 100%;
 }
 
-.descricao .titulo{
-    grid-column: 2;
-    grid-row: 1;
+.titulo{
     font-size: 20px;
     text-align: center;
     font-family: "Inter", serif;
     font-weight: 600;
+    color: #af3b34;
+    margin-top: 90px;
 }   
 
-.descricao .texto_descricao{
+.descricao .descricao_pessoal{
+    grid-column: 2;
+    grid-row: 2;
+    font-family: "Inter", serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 40px;
+}
+
+.descricao .descricao_academica ul{
     grid-column: 2;
     grid-row: 2;
     font-family: "Inter", serif;
     font-size: 20px;
+    line-height: 1.5;
+    padding-top: 50px;
+    font-weight: 700;
+    color: #af3b34;
+}
+
+.descricao .descricao_academica li{
+    grid-column: 2;
+    grid-row: 2;
+    font-family: "Inter", serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.descricao .descricao_hobbies ul{
+    grid-column: 2;
+    grid-row: 2;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 50px;
+    font-weight: 700;
+    color: #af3b34;
+}
+
+.descricao .descricao_hobbies li{
+    grid-column: 2;
+    grid-row: 2;
+    font-family: "Inter", serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
 }
