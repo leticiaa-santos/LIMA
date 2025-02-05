@@ -29,18 +29,18 @@ body{
 
 #main .descricao{
     display: grid;
-    grid-template-columns: 800px 500px;
+    grid-template-columns: 600px 600px;
     grid-template-rows: auto auto;
     gap: 20px;
     justify-content: center;
 }
 
 .descricao .imagem_representa{
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-    margin: 50px 100px;
+    margin: 90px 100px;
 }
 
 .imagem_representa img{
@@ -48,7 +48,7 @@ body{
 }
 
 .titulo{
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     font-family: "Inter", serif;
     font-weight: 600;
@@ -60,7 +60,7 @@ body{
     grid-column: 2;
     grid-row: 2;
     font-family: "Inter", serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     padding-top: 40px;
 }
@@ -69,7 +69,7 @@ body{
     grid-column: 2;
     grid-row: 2;
     font-family: "Inter", serif;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5;
     padding-top: 50px;
     font-weight: 700;
@@ -80,7 +80,7 @@ body{
     grid-column: 2;
     grid-row: 2;
     font-family: "Inter", serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     text-align: justify;
 }
@@ -89,7 +89,7 @@ body{
     grid-column: 2;
     grid-row: 2;
     font-family: "Inter", serif;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5;
     padding-top: 50px;
     font-weight: 700;
@@ -100,7 +100,49 @@ body{
     grid-column: 2;
     grid-row: 2;
     font-family: "Inter", serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     text-align: justify;
+}
+
+.favoritos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.favoritos h2{
+    font-size: 26px;
+    color: #af3b34;
+    font-family: "Inter", serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container_favoritos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.item{
+    text-align: center;
+    width: 200px;
+}
+
+.item img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+.item h3{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
 }
