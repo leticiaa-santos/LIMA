@@ -1,0 +1,14 @@
+IHC - Interação humano - computador
+
+sistema - usuário como computador (cmd - executar algo, formulário tipo radio)
+
+parceiro de discurso - computador como pessoa (chatgpt)
+
+feramenta - pessoa + computador trabalham para gerar um produtode mostrar 
+
+mídia - pessoa absorve o que o computador está mostrando, transmissões, jogos
+
+Interface - único meio de contado entre o usuário e sistema. São todas as porções que o usuário tem contato físico e outros contatos
+
+Affordance
+- São características de um objeto capazes de mostrar aos usuários as operações que ele pode fazer
