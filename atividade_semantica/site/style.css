@@ -4,8 +4,130 @@
     box-sizing: border-box;
 }
 
-.header{
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #fffaf5;
+    color: #3e2a14;
+}
+
+#header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 2px 6px #572d09;
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    mix-blend-mode: darken;
+}
+
+main{
+    padding: 5rem;
+}
+
+.menu-itens{
+    display: flex;
     justify-content: center;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #572d09;
+    margin-right: 30px;
+}
+
+.menu-item{
+    display: flex;
+    transition: all .3s ease-in;
+    opacity: .7;
+    padding: 5px;
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.titulo{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #572d09;
+    font-size: 26px;
+}
+
+.aside-sumario{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 95px;
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+.navegacao{
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 3px dotted #572d09;
+    line-height: 2rem;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #572d09;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #572d09;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-item a:hover {
+    background-color: #572d09;
+    color: #fff;
+    cursor: pointer;
+}
+
+.secao {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #fff5ec;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(87, 45, 9, 0.1);
+}
+
+.secao h4 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: #572d09;
+}
+
+.secao ul, .secao ol {
+    margin-left: 1.5rem;
+    line-height: 1.8;
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #572d09;
+    color: #fff;
+    padding: 1.5rem 1rem;
+    font-size: 14px;
 }
