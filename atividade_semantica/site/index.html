@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +8,58 @@
 </head>
 <body>
     <header id="header">
-        <img src="imagens/Browninho.svg" alt="" class="logo">
-            <nav class="nav-menu">
-                <ul class="menu-itens">
-                    <li class="menu-item">Receita</li>
-                    <li class="menu-item">Sobre Nós</li>
-                    <li class="menu-item">Contato</li>
-                </ul>
-            </nav>
+        <img src="imagens/Brownizinho.svg" alt="" class="logo">
+        <nav class="nav-menu">
+            <ul class="menu-itens">
+                <li class="menu-item"><a href="#ingredientes">Receita</a></li>
+                <li class="menu-item"><a href="#">Sobre Nós</a></li>
+                <li class="menu-item"><a href="">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <h3 class="titulo">Brownie com recheio de Nutella</h3>
-        
+        <div class="conteudo-principal">
+            <h3 class="titulo">Brownie com recheio de Nutella</h3>
+
+            <section class="secao" id="ingredientes">
+                <h4><img src="imagens/icon.svg" class="icon"> Ingredientes</h4>
+                <ul>
+                    <li>4 ovos (200g)</li>
+                    <li>1 e 1/2 xícara (chá) de açúcar (275g)</li>
+                    <li>150g de manteiga</li>
+                    <li>2 xícaras (chá) de farinha de trigo</li>
+                    <li>1 e 1/2 xícara (chá) de Nescau (achocolatado)</li>
+                    <li>1 xícara (chá) de cacau em pó (50/70%)</li>
+                    <li>Nutella para o recheio</li>
+                </ul>
+            </section>
+
+            <section class="secao" id="modo-preparo">
+                <h4><img src="imagens/icon.svg" class="icon"> Modo de Preparo</h4>
+                <ol>
+                    <li>Em uma tigela, bata muito bem os ovos e o açúcar até ficar bem claro e espumoso (isso é essencial para formar a casquinha do brownie).</li>
+                    <li>Derreta a manteiga e adicione na mistura, mexendo bem.</li>
+                    <li>Acrescente a farinha e misture até a massa ficar homogênea.</li>
+                    <li>Adicione o Nescau e misture bem.</li>
+                    <li>Peneire o cacau em pó e incorpore à massa.</li>
+                    <li>Com o forno pré-aquecido a 180°C, despeje metade da massa em uma forma untada com manteiga e Nescau.</li>
+                    <li>Asse até que a superfície fique mais firme (não pode estar mais líquida).</li>
+                    <li>Retire do forno, espalhe a Nutella (ou outro recheio) e cubra com o restante da massa.</li>
+                    <li>Leve novamente ao forno até que, ao espetar um palito, ele saia com algumas migalhas úmidas, mas não molhado.</li>
+                    <li>Espere esfriar para cortar e servir. Assim, os pedaços ficam mais bonitos e estruturados.</li>
+                </ol>
+            </section>
+
+            <section class="secao" id="recheios">
+                <h4><img src="imagens/icon.svg" class="icon"> Sobre Recheios</h4>
+                <ol>
+                    <li>Você pode variar o recheio conforme sua preferência: doce de leite, brigadeiro, creme de amendoim ou até mesmo pedaços de chocolate branco. Seja criativo!</li>
+                    <li>A consistência do recheio, quando não sólido, é importante, pois um recheio que esteja muito mole pode dificultar a hora de colocá-lo sobre a massa ainda não assada completamente</li>
+                </ol>
+            </section>
+        </div>
+
         <aside class="aside-sumario">
             <ul class="navegacao">
                 <li class="item"><a href="#ingredientes">Ingredientes</a></li>
@@ -27,45 +67,11 @@
                 <li class="item"><a href="#recheios">Sobre Recheios</a></li>
             </ul>
         </aside>
-    
-        <section class="secao" id="ingredientes">
-            <h4>🍫 Ingredientes</h4>
-            <ul>
-                <li>200g de manteiga sem sal</li>
-                <li>300g de chocolate meio amargo</li>
-                <li>1 e 1/2 xícara de açúcar</li>
-                <li>4 ovos</li>
-                <li>1 colher de chá de essência de baunilha</li>
-                <li>1 pitada de sal</li>
-                <li>1 xícara de farinha de trigo</li>
-                <li>Nutella para o recheio</li>
-            </ul>
-        </section>
-    
-        <section class="secao" id="modo-preparo">
-            <h4>👩‍🍳 Modo de Preparo</h4>
-            <ol>
-                <li>Derreta a manteiga com o chocolate em banho-maria.</li>
-                <li>Adicione o açúcar e misture bem.</li>
-                <li>Incorpore os ovos um a um, mexendo bem a cada adição.</li>
-                <li>Adicione a essência de baunilha, o sal e a farinha. Misture até ficar homogêneo.</li>
-                <li>Despeje metade da massa em uma forma untada.</li>
-                <li>Adicione colheradas de Nutella sobre a massa.</li>
-                <li>Cubra com o restante da massa.</li>
-                <li>Asse em forno pré-aquecido a 180°C por 30 a 35 minutos.</li>
-            </ol>
-        </section>
-    
-        <section class="secao" id="recheios">
-            <h4>🎂 Sobre Recheios</h4>
-            <p>Você pode variar o recheio conforme sua preferência: doce de leite, brigadeiro, creme de amendoim ou até mesmo pedaços de chocolate branco. Seja criativo!</p>
-        </section>
     </main>
-    
+
     <footer class="footer">
-        <p>© 2025 Browninho Delícias | Todos os direitos reservados.</p>
-        <p>Feito com ❤️ por amantes de chocolate.</p>
+        <p>© 2025 Brownizinho Delícias | Todos os direitos reservados.</p>
+        <p>Feito com ❤️ para amantes de brownie.</p>
     </footer>
-    
 </body>
 </html>
