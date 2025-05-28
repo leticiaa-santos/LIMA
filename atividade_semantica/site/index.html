@@ -7,8 +7,8 @@
     <title>Receita de Brownie</title>
 </head>
 <body>
-    <!--Bloco do header para exibir a logo e um menu de navegação
-    Cada link do menu direcionará para uma página-->
+    <!-- Bloco do cabeçalho (header) que contém a logo do site 
+    e um menu de navegação com links para as seções da página. -->
     <header id="header">
 
         <img src="imagens/Brownizinho.svg" alt="logo com a escrita brownizinho e uma imagem de dois pedaços de brownie 'tipo cartoon'" class="logo">
@@ -23,12 +23,12 @@
     
     </header>
 
-    <main>
-
-        <div class="conteudo-principal">
+    <main class="conteudo-principal">
 
             <h3 class="titulo">Brownie com recheio de Nutella</h3>
 
+            <!-- Seção que exibe os ingredientes necessários para a receita.
+            Cada item da lista representa um ingrediente com suas quantidades. -->
             <section class="secao" id="ingredientes">
                 <h4><img src="imagens/icon.svg" class="icon" alt="imagem com dois brownies 'empilhados', servindo como um ícone">Ingredientes</h4>
                 <ul>
@@ -42,6 +42,8 @@
                 </ul>
             </section>
 
+            <!-- Seção que mostra o modo de preparo do brownie.
+            As etapas estão organizadas em uma lista ordenada (numerada). -->
             <section class="secao" id="modo-preparo">
                 <h4><img src="imagens/icon.svg" class="icon" alt="imagem com dois brownies 'empilhados', servindo como um ícone">Modo de Preparo</h4>
                 <ol>
@@ -58,15 +60,19 @@
                 </ol>
             </section>
 
+            <!-- Seção com informações e dicas sobre possíveis recheios.
+            É organizada com uma lista ordenada e cada item da lista é uma dica sobre recheios de brownie. -->
             <section class="secao" id="recheios">
                 <h4><img src="imagens/icon.svg" class="icon" alt="imagem com dois brownies 'empilhados', servindo como um ícone">Sobre Recheios</h4>
                 <ol>
                     <li>Você pode variar o recheio conforme sua preferência: doce de leite, brigadeiro, creme de amendoim ou até mesmo pedaços de chocolate branco. Seja criativo!</li>
-                    <li>A consistência do recheio, quando não sólido, é importante, pois um recheio que esteja muito mole pode dificultar a hora de colocá-lo sobre a massa ainda não assada completamente</li>
+                    <li>A consistência do recheio, quando não sólido, é importante, pois um recheio que esteja muito mole pode dificultar a hora de colocá-lo sobre a massa ainda não assada completamente.</li>
                 </ol>
             </section>
-        </div>
 
+        <!-- Menu lateral (aside) que funciona como um sumário da página.
+        Permite que o usuário navegue rapidamente entre as seções principais, através dos links
+        que estão referenciando os ids das seções -->
         <aside class="aside-sumario">
             <ul class="navegacao">
                 <li class="item"><a href="#ingredientes">Ingredientes</a></li>
@@ -77,6 +83,7 @@
 
     </main>
 
+    <!-- Rodapé da página com informações de direitos autorais. -->
     <footer class="footer">
         <p>© 2025 Brownizinho Delícias | Todos os direitos reservados.</p>
         <p>Feito com ❤️ para amantes de brownie.</p>
